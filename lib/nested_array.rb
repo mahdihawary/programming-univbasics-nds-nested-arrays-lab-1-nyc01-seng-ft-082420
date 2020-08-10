@@ -38,7 +38,7 @@ def sorted_matrix
   "Watermelon",
   "Eggplant"]]
   produce_storage_room[0].sort
-  produce_storage_room[1].sort
+  produce_storage_room.sort
 end
 
 def matrix_lookup(matrix, row, column)
